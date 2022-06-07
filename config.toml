@@ -1,0 +1,12 @@
+baseURL = "https://lordpipe.github.io/obscure-tutorials"
+languageCode = "en-us"
+title = "lordpipe's Obscure Tutorials"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    BookTheme = "auto"
