@@ -8,7 +8,7 @@ The Russo-Ukrainian cyberwar has suddenly revealed many vulnerabilities in softw
 
 This article is geared towards being advice for the staff of the UltraVanilla Minecraft server, but you may copy and adapt for your own use under the terms of the CC-BY license.
 
-## {{% header-icon src="img/icons/password-dark.svg" classes="dark-only" %}} {{% header-icon src="img/icons/password-light.svg" classes="light-only" %}} Use strong passwords, and don't give them away
+## {{% header-icon src="img/icons/password-dark.svg" classes="dark-only" %}} {{% header-icon src="img/icons/password-light.svg" classes="light-only" %}} Use strong passwords, and don't give them away {#strong-passwords}
 
 If someone has borrowed your account in the past, change your password now. If you use the same Minecraft/Discord password as other websites, change your password now.
 
@@ -27,7 +27,7 @@ Consider using a password manager that supports master passphrase encryption.
   **Note:** the above instructions do not require the Microsoft app
 - Related article: [How to enable automatic screen locking on Windows and macOS](/obscure-tutorials/docs/security-tips/auto-screen-lock/) by lordpipe
 
-## {{% header-icon src="img/icons/report.svg" %}} Know how to report
+## {{% header-icon src="img/icons/report.svg" %}} Know how to report {#know-how-to-report}
 
 You should familiarize yourself with how to report posts, comments, or behaviors that are in violation of the guidelines of any online community you are a part of.
 
@@ -40,7 +40,7 @@ You should familiarize yourself with how to report posts, comments, or behaviors
 - Related external resource: [How to report issues to Discord](https://support.discord.com/hc/en-us/articles/360000291932-How-to-Properly-Report-Issues-to-Trust-Safety)
 - Related external resource: [How to report issues to Reddit](https://reddit.zendesk.com/hc/en-us/articles/360058309512-How-do-I-report-a-post-or-comment-)
 
-## {{% header-icon src="img/icons/malware.svg" %}} Avoid downloading malware and adware
+## {{% header-icon src="img/icons/malware.svg" %}} Avoid downloading malware and adware {#avoid-malware}
 
 Malware can steal accounts, and some malware even causes Minecraft to crash.
 
@@ -57,11 +57,11 @@ Consider installing the [StopModReposts](https://stopmodreposts.org/) browser ex
 
 - Related article: [How to run a full malware checkup](/obscure-tutorials/docs/security-tips/full-malware-checkup) by lordpipe
 
-## {{% header-icon src="img/icons/ublock.svg" %}} Install an ad blocker
+## {{% header-icon src="img/icons/ublock.svg" %}} Install an ad blocker {#install-an-ad-blocker}
 
 [uBlock Origin](https://ublockorigin.com/) can be installed for most web browser and considerably increases your resilience to malware websites. It also cuts down on your data usage.
 
-## {{% header-icon src="img/icons/stop-phishing.svg" %}} Avoid phishing
+## {{% header-icon src="img/icons/stop-phishing.svg" %}} Avoid phishing {#avoid-phishing}
 
 Below are some examples of phishing attempts. Report them to the platform you find them on.
 
@@ -77,17 +77,17 @@ Below are some examples of phishing attempts. Report them to the platform you fi
 
 {{< figure src="/obscure-tutorials/img/phishing-examples/mojang.png" title="Mojang account scam. Your transaction ID is sensitive info, as it can be used to steal a Minecraft account." >}}
 
-## {{% header-icon src="img/icons/question.svg" %}} Be cautious with personal information and IRL meetups
+## {{% header-icon src="img/icons/question.svg" %}} Be cautious with personal information and IRL meetups {#exercise-caution}
 
 Don't post too much identifying information. If you ever see anything online that you find particularly upsetting, or are unsure about a situation, tell someone you trust.
 
-## {{% header-icon src="img/icons/heart.svg" %}} Be nice to people
+## {{% header-icon src="img/icons/heart.svg" %}} Be nice to people {#be-nice}
 
 The golden rule is pretty good. Avoiding stepping on people’s toes keeps you safe.
 
 {{% uv-specific %}}
 
-## {{% header-icon src="img/icons/lock.svg" %}} Appendix: UltraVanilla staff policy
+## {{% header-icon src="img/icons/lock.svg" %}} Appendix: UltraVanilla staff policy {#staff-policy}
 
 Moderators and above must:
 
