@@ -13,7 +13,7 @@ This article is geared towards being advice for the staff of the UltraVanilla Mi
 If someone has borrowed your account in the past, change your password now. If you use the same Minecraft/Discord password as other websites, change your password now.
 
 {{% warning %}}
-You may have heard various outdated advice from intitutional IT departments. Nowadays, passwords strength cannot be reliably determined by simplistic rules like "include special characters" or "use at least 10 characters". Instead, use the [How Secure is My Password](https://www.security.org/how-secure-is-my-password/) tool.
+You may have heard various outdated advice from intitutional IT departments. Nowadays, passwords strength cannot be reliably determined by simplistic rules like "include special characters" or "use at least 10 characters". Instead, use the [How Secure is My Password](https://passwordsecurity.info/) tool.
 {{% /warning %}}
 
 Consider [enabling 2-factor authentication](/obscure-tutorials/docs/security-tips/discord-2fa/) on your accounts.
