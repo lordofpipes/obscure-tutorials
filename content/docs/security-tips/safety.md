@@ -73,6 +73,8 @@ Below are some examples of phishing attempts. Report them to the platform you fi
 
 {{< figure src="/obscure-tutorials/img/phishing-examples/1sGyLUt.png" title="Discord login scam — Looks identical to normal login screen. Scanning the fake QR code is just as dangerous as entering a password. Check the URL!" >}}
 
+{{< figure src="/obscure-tutorials/img/phishing-examples/moved-server-scam.png" title="Phishing to get you into a QR code scam." >}}
+
 {{< figure src="/obscure-tutorials/img/phishing-examples/uf2Zduh.png" title="Video game developer scam. With this type of scam, advanced social engineering tactics may be used, possibly even building up trust over a period of several months." >}}
 
 {{< figure src="/obscure-tutorials/img/phishing-examples/two-links.png" title="In this scam, a real Discord URL is placed visually close to where the embed for a fake URL is. Embeds always show up at the end of the message, no matter where the URL is, and their styling can be faked to look like anything!" >}}
