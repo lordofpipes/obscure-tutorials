@@ -1,5 +1,6 @@
 ---
 title: "How to enable TOTP-based 2FA on a Microsoft account"
+description: Tips for securing your MS account. Includes instructions for generic TOTP without having to use the Microsoft Authenticator app."
 weight: 4
 ---
 
