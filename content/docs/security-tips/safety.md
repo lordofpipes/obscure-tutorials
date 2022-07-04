@@ -65,6 +65,10 @@ Consider installing the [StopModReposts](https://stopmodreposts.org/) browser ex
 
 Below are some examples of phishing attempts. Report them to the platform you find them on.
 
+{{< figure src="/obscure-tutorials/img/phishing-examples/hall-of-shame.jpg" title="Phishing to get you into a QR code scam. This message will come from your CONTACTS. Meaning your friend has been hacked." >}}
+
+{{< figure src="/obscure-tutorials/img/phishing-examples/qr-code.png" title="Dangerous QR code. Do not scan ANY QR codes using the discord app" >}}
+
 {{< figure src="/obscure-tutorials/img/phishing-examples/fMwrMlh.png" title="Discord nitro scam" >}}
 
 {{< figure src="/obscure-tutorials/img/phishing-examples/1sGyLUt.png" title="Discord login scam — Looks identical to normal login screen. Scanning the fake QR code is just as dangerous as entering a password. Check the URL!" >}}
