@@ -122,3 +122,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo,vim,git,windows,linux,macos
+unused-pictures

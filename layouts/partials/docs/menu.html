@@ -1,5 +1,6 @@
 <nav>
 {{ partial "docs/brand" . }}
+{{ if .Params.mainpage }}
 {{ partial "docs/search" . }}
 {{ if .Site.IsMultiLingual }}
     {{ partial "docs/languages" . }}
@@ -16,6 +17,7 @@
 
 {{ partial "docs/menu-hugo" .Site.Menus.after }}
 {{ partial "docs/inject/menu-after" . }}
+{{ end }}
 </nav>
 
 <!-- Restore menu position as soon as possible to avoid flickering -->

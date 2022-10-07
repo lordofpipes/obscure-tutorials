@@ -305,6 +305,10 @@ a[href^="https://"]:after {
     margin: 0 0 0 5px;
 }
 
+.clearfix{
+    clear: both;
+}
+
 @media screen and (max-width: $mobile-breakpoint) {
     #menu-control,
     #toc-control {

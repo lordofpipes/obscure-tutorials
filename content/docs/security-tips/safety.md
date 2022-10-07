@@ -1,5 +1,5 @@
 ---
-title: "Tips for staying safe online during a cyber-war"
+title: "Tips for staying safe online"
 description: "Examples of common Discord scams and advice for keeping your accounts safe. Article written by lordpipe"
 weight: 1
 ---
