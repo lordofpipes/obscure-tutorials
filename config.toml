@@ -1,4 +1,4 @@
-baseURL = "https://lordpipe.github.io/obscure-tutorials"
+baseURL = "https://lordofpipes.github.io/obscure-tutorials"
 languageCode = "en-us"
 title = "lordpipe's Obscure Tutorials"
 
@@ -10,3 +10,4 @@ title = "lordpipe's Obscure Tutorials"
 
 [params]
     BookTheme = "auto"
+    BookDateFormat = "2006-01-02"

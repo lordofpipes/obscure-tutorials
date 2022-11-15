@@ -2,13 +2,14 @@
 title: "How to install Fedora Minimal with Snapper"
 description: Tutorial for setting up a Fedora installation that can do whole-system rollbacks
 weight: 1
-# Why Fedora Silverblue is not great for Linux Ricers -- and the case for using Fedora with OpenSUSE's Snapper tool instead
+lastmod: "2022-11-15"
+images:
+- img/fedora-snapper/31-grub-menu.png
 ---
 
+**The goal:** Get a "riceable" Linux setup that can be rolled back in a flexible manner, by running a clever OpenSUSE tool on a non-OpenSUSE distro. Make a system that is difficult to break in a way that will waste a whole day getting it working again. All the fun of Linux desktop ricing, but none of the risk.
 
 [Skip introduction](#snapper)
-
-**The goal:** Get a "riceable" Linux setup that can be rolled back in a flexible manner, by running a clever OpenSUSE tool on a non-OpenSUSE distro. Make a system that is difficult to break in a way that will waste a whole day getting it working again. All the fun of Linux desktop ricing, but none of the risk.
 
 ## Snapper? But what about Silverblue?
 
@@ -304,7 +305,7 @@ To show LAN IP:
 Before we start, lets install some dependencies to get a nice comfortable zsh-based shell:
 
 ```
-# sudo dnf install zsh fzf PackageKit-command-not-found sqlite git
+# sudo dnf install zsh fzf PackageKit-command-not-found util-linux-user sqlite git
 ```
 
 {{% warning %}}
@@ -560,7 +561,7 @@ Once you are done, regenerate the grub config and enable the systemd unit for wa
 
 ```
 # sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-# sudo systemctl enable --now grub-btrfs.path
+# sudo systemctl enable --now grub-btrfsd.service
 ```
 
 {{< figure src="/obscure-tutorials/img/fedora-snapper/28-setup-grub-btrfs.png" >}}
@@ -608,7 +609,7 @@ Then we install the meat of what we want:
 We'll grab some themes:
 
 ```
-# sudo dnf install sddm-themes arc-theme arc-kde lxappearance feh`
+# sudo dnf install sddm-themes arc-theme arc-kde lxappearance feh
 ```
 
 Install some applications:
