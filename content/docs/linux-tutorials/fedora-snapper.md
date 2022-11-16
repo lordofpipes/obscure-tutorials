@@ -2,7 +2,7 @@
 title: "How to install Fedora Minimal with Snapper"
 description: Tutorial for setting up a Fedora installation that can do whole-system rollbacks
 weight: 1
-lastmod: "2022-11-15"
+lastmod: "2022-11-16"
 images:
 - img/fedora-snapper/31-grub-menu.png
 ---
@@ -15,17 +15,17 @@ images:
 
 [Silverblue](https://silverblue.fedoraproject.org/) is a fantastic project that intends to introduce the concept of immutable operating systems to the Linux desktop and server. It does this by packaging an entire set of operating system files together, updating it all at once when you reboot the system. Currently, there are four OSTree-based projects, one that includes system files for GNOME desktop (Silverblue), another that provides system files for a [KDE desktop (Kinoite)](https://kinoite.fedoraproject.org/), as well as an IoT platform (Fedora IoT) and a headless container platform (CoreOS).
 
-This system is broadly similar to how Windows, Android, iOS, and macOS work.
+This system is broadly similar to how Windows, Android, macOS, and iOS work.
 
 **Analogy: Windows Update**
 
 {{< figure src="/obscure-tutorials/img/fedora-snapper/windows-update.png" class="align-right" >}}
 
-Windows manages the files under `C:\Windows\System32` and prevents the user from modifying them with loose technical restrictions imposed by Windows Explorer. Applications like `notepad.exe` and all the various dynamically-linked libraries Windows comes with are not meant to be edited. This provides a stable and predictable system, carefully managed by Windows Update.
+Windows manages the files under `C:\Windows\System32` and prevents the user from modifying them with loose technical restrictions imposed by Windows Explorer. Applications like `notepad.exe` and all the various dynamically-linked libraries Windows comes with are not meant to be edited. This provides a stable and predictable system, carefully managed by Windows Update. 
 
 On Windows, anything outside of this can be installed to various user- and administrator-controlled folders like `C:\Program Files` or `%appdata%`. The analogue to this in Silverblue are the various mutable directories that are attached to `/var`, such as `/home/`, `/home/foo/.local/bin/`, `/var/lib/flatpak/`, `/etc/`
 
-Like Windows Update, Silverblue provides the benefit of being able to rollback to the last working system files if something breaks.
+It should be noted that Windows Update is *not* a true immutable system, and has numerous disadvantages compared to a true immutable system, which are discussed below. But like Windows Update, Silverblue provides the benefit of being able to rollback to the last working system files if something breaks.
 
 ### rpm-ostree?
 
@@ -66,17 +66,13 @@ Linux ricers are often not using GNOME or KDE, they usually want to start from s
 
 This is why they are often using Archlinux, Gentoo, NixOS, Debian, and Voidlinux. These OSes plunge you into a command line so you can edit some text files to start a computing setup that you will hopefully be using for years. These are great operating systems, but they are not Fedora &mdash; they aren't keeping up with the innovation in the Linux desktop space (except for NixOS perhaps), and at the same time they aren't always so stable.
 
-#### Silverblue Problem #2: Rollbacks don't help you fix `rpm-ostree`
-
-I could be wrong, but it's my understanding that `rpm-ostree` exists outside of the rollback system &mdash; the way it is configured is part of the mutable side of things. `rpm-ostree` will simply help you do updates and downgrades on these packages the way that a normal Fedora/RHEL system will. It won't actually completely revert all changes the user has applied since the last snapshot. If something breaks, you could of course just start from the base snapshot and work from there, but on a heavily customized system there will be quite a lot of things that diverge from the base snapshot.
-
-#### Silverblue Problem #3: Rollbacks & updates only somewhat help you fix `/etc/`
+#### Silverblue Problem #2: Rollbacks & updates only somewhat help you fix `/etc/` &mdash; its handling of `/etc` is not time machine snapshots
 
 Each time you switch to a different snapshot, OSTree will do a three-way diff based merge on `/etc/` to update its contents. If this three-way diff fails, you could get an `/etc/` that is broken. A Linux ricer may wish to have their system packages and their `/etc/` folder always in sync with the backup snapshots.
 
 {{< figure src="/obscure-tutorials/img/fedora-snapper/windows-vista-nightmare.jpg" class="align-right" title="No, Silverblue won't give you this." >}}
 
-#### Silverblue Problem #4: Reboots required
+#### Silverblue Problem #3: Reboots required
 
 It's not rational of course, but Linux ricers care about uptime. They know when a reboot is actually required vs. when the software is just being cautious. Fedora Silverblue requires reboots to make changes to `rpm-ostree`. Thankfully it does not have a Windows Vista style loading screen (it's very quick to switch out the old snapshot for the new one) but still, it would be nice to only need to do this for rollbacks and new kernels.
 
@@ -448,7 +444,7 @@ Reboot:
 Install Snapper, and the `dnf` hooks for automatically creating before/after snapshots every time packages are changed:
 
 ```
-# sudo dnf install snapper python3-dnf-plugin-snapper
+# sudo dnf install snapper python3-dnf-plugin-snapper inotify-tools
 ```
 
 {{< figure src="/obscure-tutorials/img/fedora-snapper/23-install-snapper.png" >}}
@@ -508,10 +504,14 @@ Install `grub-btrfs`, a tool to automatically generate grub listings for Snapper
 
 Edit the config file for `grub-btrfs` at `/etc/default/grub-btrfs/config`.
 
-**Edit #1:** Make sure `GRUB_BTRFS_MKCONFIG` is uncommented and set to `/usr/bin/grub2-mkconfig`
+**Edit #1:** Make sure `GRUB_BTRFS_MKCONFIG` is uncommented and set to `/usr/sbin/grub2-mkconfig`
+
+{{% warning %}}
+That is `/usr/sbin`, not `/usr/bin`!
+{{% /warning %}}
 
 ```bash
-GRUB_BTRFS_MKCONFIG="/usr/bin/grub2-mkconfig"
+GRUB_BTRFS_MKCONFIG="/usr/sbin/grub2-mkconfig"
 ```
 
 **Edit #2:** Make sure `GRUB_BTRFS_SCRIPT_CHECK` is uncommented and set to `grub2-script-check`
