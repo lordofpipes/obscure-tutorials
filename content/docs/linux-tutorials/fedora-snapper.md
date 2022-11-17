@@ -132,12 +132,18 @@ Filesystem: EFI System Partition
 Mountpoint: /boot/efi
 ```
 
-If using legacy boot, consider upping the size to 1 to 2 GiB, because Snapper will put multiple different kernel images on this partition:
+If using legacy boot, consider upping the size to 1 to 2 GiB, because Snapper will put multiple different kernel images on this partition. Note that for legacy boot you will also need a 1MiB BIOS boot partition as the first partition on the drive.
 
 ```
-Size: 1536 MiB 
-Filesystem: ext4
-Mountpoint: /boot
+[If using legacy boot]
+First partition:
+    Size: 1 MiB 
+    Filesystem: BIOS Boot
+
+Second partition:
+    Size: 1536 MiB 
+    Filesystem: ext4
+    Mountpoint: /boot
 ```
 
 {{< figure src="/obscure-tutorials/img/fedora-snapper/6-partition-create-boot-2.png" >}}
