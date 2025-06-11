@@ -1,11 +1,200 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lordpipe's Obscure Tutorials</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/</link><description>Recent content on lordpipe's Obscure Tutorials</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/index.xml" rel="self" type="application/rss+xml"/><item><title>Tips for staying safe online</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/safety/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/safety/</guid><description>The Russo-Ukrainian cyberwar has suddenly revealed many vulnerabilities in software and web services — many of which are now being used on random people. Below are some general tips for staying safe while playing Minecraft and using Discord, as well as some general internet safety advice, to lower your footprint to getting hacked or other problems.
-This article is geared towards being advice for the staff of the UltraVanilla Minecraft server, but you may copy and adapt for your own use under the terms of the CC-BY license.</description></item><item><title>How to run a full malware checkup</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/full-malware-checkup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/full-malware-checkup/</guid><description>This is a tutorial for cleaning up a computer. Aside from Microsoft Defender, the tools used are best for one-time use, and are not the best antivirus software for continuous protection.
-Follow as many steps as you can, including the browser checkup tutorial at the end.
-Windows and macOS # First, if on Windows, download and run BleepingComputer RKill. This will kill any actively running malware, so that Malwarebytes can do its job without any interference, as well as temporarily reset certain Windows settings to a predictable state.</description></item><item><title>How to enable automatic screen locking</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/auto-screen-lock/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/auto-screen-lock/</guid><description>If you live with younger kids or hostile and/or idiotic family or roomates, you may wish to automatically lock your screen after a certain period of inactivity, to prevent unauthorized access.
-Doing this is recommended if you are staff on UltraVanilla. If you work any sort of remote job you should be doing this!
-Windows # Open Lock screen settings
-Click Screen timeout
-Click On resume, display login screen
-Enter a wait time of 15 minutes</description></item><item><title>How to enable 2FA on a Discord account</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/discord-2fa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/discord-2fa/</guid><description>Choosing a 2-factor authentication app # TOTP-based authentication is a standardized system, so there are different options to choose from:
-App Platforms Has sync? Open source? Notes Authy ✅ ❌ Requires Snap on Linux. Has vendor lock-in — it will not show you your codes. Has better restore functionality than other apps Aegis ✅ ✅ Sync is via cloud storage API WinAuth ❌ ✅ Ravio ✅ ✅ Sync is via iCloud TOTP.</description></item><item><title>How to enable TOTP-based 2FA on a Microsoft account</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/microsoft-2fa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/microsoft-2fa/</guid><description>Choosing a 2-factor authentication app # TOTP-based authentication is a standardized system, so there are different options to choose from:
-App Platforms Has sync? Open source? Notes Authy ✅ ❌ Requires Snap on Linux. Has vendor lock-in — it will not show you your codes. Has better restore functionality than other apps Aegis ✅ ✅ Sync is via cloud storage API WinAuth ❌ ✅ Ravio ✅ ✅ Sync is via iCloud TOTP.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lordpipe's Obscure Tutorials</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/</link><description>Recent content on lordpipe's Obscure Tutorials</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/index.xml" rel="self" type="application/rss+xml"/><item><title>How to run a full malware checkup</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/full-malware-checkup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/full-malware-checkup/</guid><description>&lt;p>This is a tutorial for cleaning up a computer. Aside from Microsoft Defender, the tools used are best for one-time use, and are not the best antivirus software for continuous protection.&lt;/p>
+&lt;p>&lt;strong>Follow as many steps as you can, including the browser checkup tutorial at the end.&lt;/strong>&lt;/p>
+&lt;h2 id="windows-and-macos">
+ Windows and macOS
+ &lt;a class="anchor" href="#windows-and-macos">#&lt;/a>
+&lt;/h2>
+&lt;p>First, if on Windows, download and run &lt;a href="https://www.bleepingcomputer.com/download/rkill/">BleepingComputer RKill&lt;/a>. This will kill any actively running malware, so that Malwarebytes can do its job without any interference, as well as temporarily reset certain Windows settings to a predictable state. You will not need to give it any input, just let it run until completion.&lt;/p></description></item><item><title>How to enable automatic screen locking</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/auto-screen-lock/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/auto-screen-lock/</guid><description>&lt;p>If you live with younger kids or hostile and/or idiotic family or roomates, you may wish to automatically lock your screen after a certain period of inactivity, to prevent unauthorized access.&lt;/p>
+&lt;span class="uv-specific">
+&lt;p>Doing this is recommended if you are staff on UltraVanilla. If you work any sort of remote job you should be doing this!&lt;/p>
+&lt;/span>
+&lt;h2 id="windows">
+ Windows
+ &lt;a class="anchor" href="#windows">#&lt;/a>
+&lt;/h2>
+&lt;p>Open &lt;code>Lock screen settings&lt;/code>&lt;/p>
+&lt;figure>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/auto-screen-lock/windows-1.png">
+&lt;/figure>
+
+&lt;p>Click &lt;code>Screen timeout&lt;/code>&lt;/p>
+&lt;p>Click &lt;code>On resume, display login screen&lt;/code>&lt;/p></description></item><item><title>How to enable 2FA on a Discord account</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/discord-2fa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/discord-2fa/</guid><description>&lt;h2 id="choosing-a-2-factor-authentication-app">
+ Choosing a 2-factor authentication app
+ &lt;a class="anchor" href="#choosing-a-2-factor-authentication-app">#&lt;/a>
+&lt;/h2>
+&lt;p>TOTP-based authentication is a standardized system, so there are different options to choose from:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>App&lt;/th>
+ &lt;th>Platforms&lt;/th>
+ &lt;th style="text-align: center">Has sync?&lt;/th>
+ &lt;th style="text-align: center">Open source?&lt;/th>
+ &lt;th>Notes&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://authy.com/">Authy&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/WIN.png" alt="Windows" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/MAC.png" alt="macOS" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/LIN.png" alt="Linux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/UBT.png" alt="Ubuntu" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/AND.png" alt="Android" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/IOS.png" alt="iOS" />&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td>Requires Snap on Linux. Has vendor lock-in — it will not show you your codes. Has better restore functionality than other apps&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://getaegis.app/">Aegis&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/AND.png" alt="Android" />&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Sync is via cloud storage API&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://winauth.github.io/winauth/index.html">WinAuth&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/WIN.png" alt="Windows" />&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://apps.apple.com/us/app/raivo-otp/id1459042137?platform=iphone">Ravio&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/IOS.png" alt="iOS" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/IPA.png" alt="iPadOS" />&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Sync is via iCloud&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://totp.app/">TOTP.app&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/FOS.png" alt="Web" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/COS.png" alt="Web" />&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Stored in browser cookies&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://www.nongnu.org/oath-toolkit/">oathtool&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/LIN.png" alt="Linux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/DEB.png" alt="Debian" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/UBT.png" alt="Ubuntu" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/FED.png" alt="Fedora" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/CES.png" alt="CentOS" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/ARL.png" alt="Archlinux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/BSD.png" alt="Linux" />&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/tadfisher/pass-otp">pass-otp&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/LIN.png" alt="Linux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/UBT.png" alt="Ubuntu" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/DEB.png" alt="Debian" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/FED.png" alt="Fedora" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/ARL.png" alt="Archlinux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/BSD.png" alt="Linux" />&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;!--| [Bitwarden Premium](https://bitwarden.com/download/) | ![Windows](/obscure-tutorials/img/icons/platforms/WIN.png) ![macOS](/obscure-tutorials/img/icons/platforms/MAC.png) ![Linux](/obscure-tutorials/img/icons/platforms/LIN.png) ![Ubuntu](/obscure-tutorials/img/icons/platforms/UBT.png) ![Debian](/obscure-tutorials/img/icons/platforms/DEB.png) ![Fedora](/obscure-tutorials/img/icons/platforms/FED.png) ![Android](/obscure-tutorials/img/icons/platforms/AND.png) ![iOS](/obscure-tutorials/img/icons/platforms/IOS.png) | ✅ | ✅ | ✅ | Costs money |-->
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>App to avoid&lt;/th>
+ &lt;th>Reason&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>❌ Google Authenticator&lt;/td>
+ &lt;td>Bad vendor lock-in, no sync&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>❌ Microsoft Authenticator&lt;/td>
+ &lt;td>Bad vendor lock-in, very buggy&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="after-you-have-chosen-an-app">
+ After you have chosen an app
+ &lt;a class="anchor" href="#after-you-have-chosen-an-app">#&lt;/a>
+&lt;/h2>
+&lt;p>Before starting, you should consider performing &lt;a href="https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/full-malware-checkup">a malware checkup and browser checkup procedure&lt;/a> to defang any current compromise on your PC from being able to steal authentication info.&lt;/p></description></item><item><title>How to enable TOTP-based 2FA on a Microsoft account</title><link>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/microsoft-2fa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/microsoft-2fa/</guid><description>&lt;h2 id="choosing-a-2-factor-authentication-app">
+ Choosing a 2-factor authentication app
+ &lt;a class="anchor" href="#choosing-a-2-factor-authentication-app">#&lt;/a>
+&lt;/h2>
+&lt;p>TOTP-based authentication is a standardized system, so there are different options to choose from:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>App&lt;/th>
+ &lt;th>Platforms&lt;/th>
+ &lt;th style="text-align: center">Has sync?&lt;/th>
+ &lt;th style="text-align: center">Open source?&lt;/th>
+ &lt;th>Notes&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://authy.com/">Authy&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/WIN.png" alt="Windows" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/MAC.png" alt="macOS" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/LIN.png" alt="Linux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/UBT.png" alt="Ubuntu" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/AND.png" alt="Android" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/IOS.png" alt="iOS" />&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td>Requires Snap on Linux. Has vendor lock-in — it will not show you your codes. Has better restore functionality than other apps&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://getaegis.app/">Aegis&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/AND.png" alt="Android" />&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Sync is via cloud storage API&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://winauth.github.io/winauth/index.html">WinAuth&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/WIN.png" alt="Windows" />&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://apps.apple.com/us/app/raivo-otp/id1459042137?platform=iphone">Ravio&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/IOS.png" alt="iOS" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/IPA.png" alt="iPadOS" />&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Sync is via iCloud&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://totp.app/">TOTP.app&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/FOS.png" alt="Web" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/COS.png" alt="Web" />&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Stored in browser cookies&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://www.nongnu.org/oath-toolkit/">oathtool&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/LIN.png" alt="Linux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/DEB.png" alt="Debian" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/UBT.png" alt="Ubuntu" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/FED.png" alt="Fedora" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/CES.png" alt="CentOS" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/ARL.png" alt="Archlinux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/BSD.png" alt="Linux" />&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/tadfisher/pass-otp">pass-otp&lt;/a>&lt;/td>
+ &lt;td>&lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/LIN.png" alt="Linux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/UBT.png" alt="Ubuntu" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/DEB.png" alt="Debian" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/FED.png" alt="Fedora" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/ARL.png" alt="Archlinux" /> &lt;img src="https://lordofpipes.github.io/obscure-tutorials/img/icons/platforms/BSD.png" alt="Linux" />&lt;/td>
+ &lt;td style="text-align: center">❌&lt;/td>
+ &lt;td style="text-align: center">✅&lt;/td>
+ &lt;td>Advanced&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;!--| [Bitwarden Premium](https://bitwarden.com/download/) | ![Windows](/obscure-tutorials/img/icons/platforms/WIN.png) ![macOS](/obscure-tutorials/img/icons/platforms/MAC.png) ![Linux](/obscure-tutorials/img/icons/platforms/LIN.png) ![Ubuntu](/obscure-tutorials/img/icons/platforms/UBT.png) ![Debian](/obscure-tutorials/img/icons/platforms/DEB.png) ![Fedora](/obscure-tutorials/img/icons/platforms/FED.png) ![Android](/obscure-tutorials/img/icons/platforms/AND.png) ![iOS](/obscure-tutorials/img/icons/platforms/IOS.png) | ✅ | ✅ | ✅ | Costs money |-->
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>App to avoid&lt;/th>
+ &lt;th>Reason&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>❌ Google Authenticator&lt;/td>
+ &lt;td>Bad vendor lock-in, no sync&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>❌ Microsoft Authenticator&lt;/td>
+ &lt;td>Bad vendor lock-in, very buggy&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="after-you-have-chosen-an-app">
+ After you have chosen an app
+ &lt;a class="anchor" href="#after-you-have-chosen-an-app">#&lt;/a>
+&lt;/h2>
+&lt;p>Before starting, you should consider performing &lt;a href="https://lordofpipes.github.io/obscure-tutorials/docs/security-tips/full-malware-checkup">a malware checkup and browser checkup procedure&lt;/a> to defang any current compromise on your PC from being able to steal authentication info.&lt;/p></description></item></channel></rss>
